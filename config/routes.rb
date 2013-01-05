@@ -1,9 +1,13 @@
 HSBCUbs::Application.routes.draw do
+  get "sale/new"
+
   #get "static_pages/index"
 
 
 
 root to: "static_pages#index"
+
+resources :sales
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

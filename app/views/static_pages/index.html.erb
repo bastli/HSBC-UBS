@@ -1,7 +1,9 @@
 <div id="menugrid" class="grid">
-
+<div class="span7">
 	<div class="row">
-		<div class="tile double double-vertical bg-color-red">
+
+		<%= link_to new_sale_path, class:"tile double double-vertical bg-color-red" do %>
+		
 			<div class="tile-content">
 				<i class="icon-cart" style="font-size:160px;"></i>
 
@@ -11,10 +13,13 @@
 
 			</div>
 
-		</div>
+		<% end %>
 
-				<div class="tile double double-vertical bg-color-green">
-					<div class="tile-content">
+		
+
+		<%= link_to new_sale_path, class:"tile double double-vertical bg-color-green" do %>
+
+		<div class="tile-content">
 				<i class="icon-history" style="font-size:160px;"></i>
 
 			</div>
@@ -23,8 +28,10 @@
 				<span class="badge">8</span>
 
 			</div>
+			<% end %>
 
-		</div>
+
+
 
 
 	</div>
@@ -58,4 +65,9 @@
 		</div>
 	</div>
 
+</div>
+<div class="span3">
+
+<h1 id="uhr"></h1>
+</div>
 </div>
