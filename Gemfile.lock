@@ -119,4 +119,5 @@ DEPENDENCIES
   metro-ui-rails
   rails (= 3.2.10)
   sqlite3
+  therubyracer
   uglifier (>= 1.0.3)
